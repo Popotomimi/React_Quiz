@@ -39,3 +39,21 @@ button:hover {
     rgba(132, 53, 222, 1) 100%
   );
 }
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  #question h2 {
+    font-size: 1rem;
+  }
+
+  nav {
+    margin-bottom: 40px !important;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+}

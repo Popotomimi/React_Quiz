@@ -1,0 +1,61 @@
+.github {
+  font-size: 3rem;
+  background-color: #000;
+  border-radius: 222px;
+  border: solid 1px #fff;
+  color: #000;
+  transition: 0.5s;
+}
+
+.github:hover {
+  background-color: #8435de;
+}
+
+.linkedin {
+  font-size: 3rem;
+  background-color: #0e76a8;
+  border-radius: 6px;
+  border: solid 1px #fff;
+  color: #0e76a8;
+  transition: 0.5s;
+}
+
+.linkedin:hover {
+  background-color: #8435de;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 0;
+  padding: 5%;
+  border-top: #fff solid 1px;
+}
+
+footer svg {
+  margin: 15px;
+}
+
+footer p {
+  margin: 5px;
+  font-weight: bold;
+}
+
+@media (max-width: 425px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .linkedin,
+  .github {
+    font-size: 2rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+}

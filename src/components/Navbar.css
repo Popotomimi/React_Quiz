@@ -1,0 +1,10 @@
+nav {
+  text-align: center;
+  padding: 15px;
+  border-bottom: solid #fff 1px;
+  margin-bottom: 100px;
+}
+
+nav h3 {
+  color: #8435de;
+}
