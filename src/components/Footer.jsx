@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
       <div>
         <p>Veja meus repositórios:</p>
-        <Link to="https://www.linkedin.com/in/roberto-de-oliveira-35976621b/">
+        <Link to="https://github.com/Popotomimi">
           {" "}
           <BsGithub className="github" />{" "}
         </Link>
